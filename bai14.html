@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 420px;
+        width: 650px;
+        display: inline-block;
+        box-shadow: 0 0 10px gray;
+
+    }
+    .email{
+        display: inline;
+        padding-right: 89px;
+    }
+   
+    .Mes{
+        margin-top: 70px;
+        padding-right: 70px;
+    }
+    .text{
+        margin-left: -5px;
+    }
+    .texteare{
+       margin-left: 32.2px
+       
+    }
+    .how{
+        display: inline-block;
+    }
+    .chinh{
+        display: flex;
+        margin-top: 5px;
+    }
+    .an{
+        display: inline;
+    }
+    .Howdid{
+        margin-bottom: 1;
+    }
+    .emailchinh{
+        margin-bottom: 15px;
+    }
+    .checkbox{
+        display: flex;
+    }
+    .check{
+        margin-left: 90px;
+    }
+    #button_mess{
+        margin-top: 10px;
+    }
+    #div_nav{
+        margin-left: 10px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div id="div_nav">
+        <h1>Contact Us</h1>
+        <p>Use the following form to send a message to Example Cafe</p>
+        <div class="emailchinh">
+        <p class="email">Your email</p>
+        <input class="text" type="text">
+       </div>
+        <div class="chinh">
+            <p class="Mes">Message</p>
+            <textarea class="texteare" name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="Howdid">
+        <p class="how">How did you hear of us?</p>
+        <select name="Application" id="" >
+            <option value="Google">Google</option>
+            <option value="Face">Facebook </option>
+            <option value="Ins">Instagram</option>
+        </select>
+    </div>
+    <div class="checkbox">
+        Newsletter 
+       <input class="check" type="checkbox" name="Ensure" value="">Ensure this box is checked if you wuold like to recieve email updates
+    </div>
+    <button id="button_mess">Send Message</button>
+    </div>
+</div>
+</body>
+</html>

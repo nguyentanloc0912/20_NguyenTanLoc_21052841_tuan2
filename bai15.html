@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button_messeger{
+        margin-left: 2px;
+        margin-top: 8px;
+    }
+    .main{
+        display: inline-block;
+        box-shadow: 0 0 10px gray;
+        height: 400px;
+        margin-right: 10px;
+    }
+    p{
+        display: inline;
+    }
+    .main1{
+        display: inline-block;
+        box-shadow: 0 0 10px gray;
+        margin-top: 15px;
+        
+    }
+</style>
+<body>
+    <div class="main">
+<div>
+<fieldset>
+  <legend>Thông tin cá nhân</legend>
+  <table>
+ 
+  <tr> 
+    <td><label for="to">To</label></td>
+    <td> <input type="text" id="to" name="name"></td>
+  </tr>
+  <tr> 
+    <td><label for="mail">Your Email</label></td>
+    <td> <input type="text" id="mail" name="name"></td>
+  </tr>
+ <tr>
+    <td><label for="Message">Message</label></td>
+    <td><textarea name="" id="Message" cols="30" rows="10"></textarea></td>
+ </tr>
+</table>
+</div>
+<div>
+    <fieldset>
+        <legend>How your for us</legend>
+        <table>
+            <tr>
+                <td><label for="Application">How did your hear <br>of us</label></td>
+                <td><select name="" id="Application">
+                    <option value="">Google</option>
+                    <option value="">Facebook</option>
+                    <option value="">Instagram</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Newsletter">Newsletter</label> </td>
+                <td><input type="checkbox" id="Newsletter">Ensure this box is checked if you wuold like to recieve email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <div class="button_messeger"><button>Send Message</button></div>
+</div>
+</div>
+<div class="main1">
+    <div>
+        <fieldset>
+         <legend>Contact Information</legend>
+         <table>
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td><input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-mail:</label></td>
+                <td><input type="text" id="mail"></td>
+            </tr>
+         </table>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Competition Question</legend>
+            <p>How tall is the Eiffel Tower in Paris, France?<br></p>
+            <table>
+                <tr>
+                    <td><input type="radio" name="gender" id="">584 ft</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" id="">784 ft</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" id="">984 ft</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" id="">1184 ft</td>
+                </tr>
+            </table>
+        </fieldset>
+       
+    </div>
+    <div>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <p>In 25 words or less, say why you would like in $10.000: <br></p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Enter Competition</legend>
+            <button>Enter Competition</button>
+        </fieldset>
+    </div>
+</div>
+</body>
+</html>

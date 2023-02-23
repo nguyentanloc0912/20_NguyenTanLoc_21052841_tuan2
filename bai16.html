@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .Boarding{
+        width: ;
+      }
+    </style>
+</head>
+<body>
+    <form action="/register" method="post">
+        <h1>Travel reservation form</h1>
+        <h2>*desnotes mandotory</h2>
+        <table>
+        <tr><td><label for="name">Full name*: </label></td></tr>
+        <tr><td><input type="text" name="name" id="name" required placeholder="FirstName LastName"></td></tr>
+        <tr><td><label for="email">Email address*: <br></label></td></tr>
+        <tr><td><input type="email" name="email" id="email" required placeholder="EMAIL_ADDRESS"> </td></tr>
+        <tr><td><label for="Package">Select Tour Package*:</label></td></tr>
+        <tr><td><select name="Package" id="Package" >
+            <option value="">Goa</option>
+            <option value="">Vip</option>
+            <option value="">Normal</option>
+        </select></td></tr>
+        <tr><td><Label for="date">Arrival date*:</Label></td></tr>
+        <tr><td><input type="date" name="date" id="date"></td></tr>
+        <tr><td><label for="Number">Number of persons*:</label></td></tr>
+        <tr><td><input type="text" name="Number" id="Number" required placeholder="UNKNOW TYPE"></td></tr>
+        <tr><td>What would you want to avail?*</td></tr>
+        <tr>
+            <td class="Boarding">Boarding</td>
+            <td><input type="checkbox"></td>
+        </tr>       
+        </table>
+      </form>
+</body>
+</html>
